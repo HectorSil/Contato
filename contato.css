@@ -1,0 +1,63 @@
+
+
+body{
+    background-image: url("boreal.jpeg");
+    background-repeat: no-repeat;
+    background-size:1600px;
+    position:relative;
+}
+
+.bg-image {
+    background-image: url("boreal.jpeg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);/* o primeiro é sobre left e right o segundo e sobre top e down */
+    width: 20%;
+    padding: 100px;
+    text-align: center;
+  }
+  h1.titulo{
+      padding-top:-10%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size:50px;
+  }
+  a{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+ .linkedin { 
+     text-decoration: none;
+    color:dodgerblue; 
+    font-size: 30px;
+} 
+.instagram { 
+    text-decoration: none;
+    color:mediumvioletred; 
+    font-size: 30px;
+} 
+.github { 
+    text-decoration: none;
+    color:black; 
+    font-size: 30px;
+} 
+
+
+
